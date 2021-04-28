@@ -7,7 +7,7 @@ import Menu from "./components/Menu";
 
 const App = () => {
   return (
-    <main className="container-fluid">
+    <main className="container-fluid p-0">
       <BrowserRouter>
         <Menu />
         <Switch>
